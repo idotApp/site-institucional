@@ -60,7 +60,7 @@ nav#menu ul li a {
 }
 
 .mobile-img img {
-  margin-top: 200px;
+  margin-top: 150px;
   padding: 10px 0px;
   height: 50vh;
 }
@@ -169,5 +169,29 @@ nav#menu ul li a {
   }
   50% {
     transform: translateY(15px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .mobile-img img {
+    margin-top: 0px;
+  }
+  .home h1 {
+    font-size: 18px;
+  }
+  .home p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px){
+  .mobile-img img {
+    margin-top: 0px;
+  }
+  .home h1 {
+    font-size: 16px;
+  }
+  .home p{
+    font-size: 12px;
   }
 }
